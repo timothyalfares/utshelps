@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="150px"
+        android:text="My Booking"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:paddingLeft="140sp"
+        android:paddingTop="10sp"
+        android:id="@+id/textView"
+        android:background="#6233D6"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="1600px"
+        android:layout_height="400px"
+        android:background="#C9C9C9"
+        android:id="@+id/textView4"
+        android:layout_alignTop="@+id/homebtn"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:layout_width="200px"
+        android:layout_height="220px"
+        android:id="@+id/homebtn"
+        android:src="@drawable/home2"
+        android:layout_marginLeft="230px"
+        android:layout_marginTop="1850px"
+        android:background="@null"/>
+
+    <ImageButton
+        android:layout_width="200px"
+        android:layout_height="200px"
+        android:id="@+id/conbtn"
+        android:src="@drawable/phone3"
+        android:layout_marginLeft="650px"
+        android:layout_marginTop="1880px"
+        android:background="@null"/>
+
+    <ImageButton
+        android:layout_width="250px"
+        android:layout_height="250px"
+        android:id="@+id/setbtn"
+        android:src="@drawable/set2"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="1050px"
+        android:layout_marginTop="1860px"
+        android:background="@null"/>
+
+</RelativeLayout>

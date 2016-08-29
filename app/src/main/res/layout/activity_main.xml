@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.utshelps.utshelps2.MainActivity"
+    android:gravity="center_horizontal"
+    android:background="@drawable/book"
+    >
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/studID"
+        android:layout_marginTop="131dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/loginbut"
+        android:layout_alignStart="@+id/loginbut"
+        android:layout_alignRight="@+id/loginbut"
+        android:layout_alignEnd="@+id/loginbut"
+        android:hint="Student ID"
+        android:drawableBottom="#ff1e0c"
+        android:background="@null"
+        android:textColorHint="#EAEAEA"
+        android:paddingBottom="20px"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/passw"
+        android:layout_below="@+id/studID"
+        android:layout_alignLeft="@+id/studID"
+        android:layout_alignStart="@+id/studID"
+        android:layout_alignRight="@+id/studID"
+        android:layout_alignEnd="@+id/studID"
+        android:hint="Password"
+        android:textColorHint="#EAEAEA"
+        android:background="@null"
+        android:paddingTop="100px"
+        android:paddingbottom="40px"
+        />
+
+    <View
+        android:id="@+id/UnderLine"
+        android:layout_width="320dp"
+        android:layout_height="2dp"
+        android:layout_below="@+id/studID"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="2dp"
+        android:background="#ffffff"
+        android:paddingBottom="20px"
+        />
+
+    <View
+        android:id="@+id/UnderLine2"
+        android:layout_width="320dp"
+        android:layout_height="2dp"
+        android:layout_below="@+id/passw"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:background="#ffffff"
+        android:paddingTop="20px"
+        android:paddingBottom="20px"
+        />
+
+    <Button
+        android:layout_width="1100px"
+        android:layout_height="180px"
+        android:text="Login"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:id="@+id/loginbut"
+        android:layout_marginTop="42dp"
+        android:background="#DB3535"
+        android:layout_below="@+id/UnderLine2"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="120px"
+        android:layout_height="120px"
+        android:id="@+id/imageView"
+        android:src="@drawable/stu2"
+        android:layout_alignBottom="@+id/studID"
+        android:layout_alignRight="@+id/studID"
+        android:layout_alignEnd="@+id/studID" />
+
+    <ImageView
+        android:layout_width="120px"
+        android:layout_height="110px"
+        android:id="@+id/imageView2"
+        android:src="@drawable/lock2"
+        android:layout_alignBottom="@+id/passw"
+        android:layout_alignRight="@+id/passw"
+        android:layout_alignEnd="@+id/passw" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText3"
+        android:text="Forget Password?"
+        android:textColor="#FFFFFF"
+        android:paddingTop="50px"
+        android:layout_below="@+id/loginbut"
+        android:layout_alignLeft="@+id/UnderLine2"
+        android:layout_alignStart="@+id/UnderLine2" />
+</RelativeLayout>
+

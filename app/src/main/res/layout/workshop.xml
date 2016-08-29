@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView
+        android:layout_width="1600px"
+        android:layout_height="400px"
+        android:background="#C9C9C9"
+        android:id="@+id/textView4"
+        android:layout_alignTop="@+id/homebtn"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:layout_width="200px"
+        android:layout_height="220px"
+        android:id="@+id/homebtn"
+        android:src="@drawable/home2"
+        android:layout_marginLeft="230px"
+        android:layout_marginTop="1850px"
+        android:background="@null"/>
+
+    <ImageButton
+        android:layout_width="200px"
+        android:layout_height="200px"
+        android:id="@+id/conbtn"
+        android:src="@drawable/phone3"
+        android:layout_marginLeft="650px"
+        android:layout_marginTop="1880px"
+        android:background="@null"/>
+
+    <ImageButton
+        android:layout_width="250px"
+        android:layout_height="250px"
+        android:id="@+id/setbtn"
+        android:src="@drawable/set2"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="1050px"
+        android:layout_marginTop="1860px"
+        android:background="@null"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/titleView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="33dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView9"
+        android:src="@drawable/wksp"
+        android:layout_below="@+id/titleView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="55dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Date"
+        android:id="@+id/textView7"
+        android:layout_marginTop="48dp"
+        android:layout_below="@+id/imageView9"
+        android:layout_alignRight="@+id/homebtn"
+        android:layout_alignEnd="@+id/homebtn" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Time"
+        android:id="@+id/textView8"
+        android:layout_marginTop="8dp"
+        android:layout_below="@+id/textView7"
+        android:layout_alignLeft="@+id/textView7"
+        android:layout_alignStart="@+id/textView7" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Location"
+        android:layout_marginTop="8dp"
+        android:id="@+id/textView9"
+        android:layout_below="@+id/textView8"
+        android:layout_alignLeft="@+id/textView8"
+        android:layout_alignStart="@+id/textView8" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Topics"
+        android:layout_marginTop="8dp"
+        android:id="@+id/textView10"
+        android:layout_below="@+id/textView9"
+        android:layout_alignLeft="@+id/textView9"
+        android:layout_alignStart="@+id/textView9" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dateRes"
+        android:layout_above="@+id/textView8"
+        android:layout_alignLeft="@+id/titleView"
+        android:layout_alignStart="@+id/titleView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/timeRes"
+        android:layout_toEndOf="@+id/dateRes"
+        android:layout_alignTop="@+id/textView8"
+        android:layout_toRightOf="@+id/dateRes" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/locRes"
+        android:layout_alignBottom="@+id/textView9"
+        android:layout_alignRight="@+id/imageView9"
+        android:layout_alignEnd="@+id/imageView9"
+        android:layout_alignTop="@+id/textView9"
+        android:layout_alignLeft="@+id/timeRes"
+        android:layout_alignStart="@+id/timeRes" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/topRes"
+        android:layout_alignTop="@+id/textView10"
+        android:layout_alignLeft="@+id/timeRes"
+        android:layout_alignStart="@+id/timeRes"
+        android:layout_alignRight="@+id/locRes"
+        android:layout_alignEnd="@+id/locRes" />
+
+    <Button
+        android:layout_width="500px"
+        android:layout_height="150px"
+        android:text="Make a booking"
+        android:textColor="#FFFFFF"
+        android:id="@+id/bookbtn"
+        android:background="#3498DB"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="-15dp"
+        android:layout_toRightOf="@+id/textView9"
+        android:layout_toEndOf="@+id/textView9" />
+</RelativeLayout>

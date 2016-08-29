@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="150px"
+        android:text="Contact Us"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:paddingLeft="140sp"
+        android:paddingTop="10sp"
+        android:id="@+id/textView"
+        android:background="#6233D6"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:layout_width="80px"
+        android:layout_height="80px"
+        android:id="@+id/imageView10"
+        android:src="@drawable/phone2"
+        android:layout_marginRight="137dp"
+        android:layout_marginEnd="137dp"
+        android:layout_marginTop="35px"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="1000px"
+        android:layout_height="300px"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="1) HELPS office :(CB01.05.25)  Monday to Thursday: 12noon - 6pm Friday: 12noon - 5pm"
+        android:id="@+id/textView2"
+        android:layout_marginTop="72dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="42dp"
+        android:layout_marginStart="42dp" />
+
+    <TextView
+        android:layout_width="1000px"
+        android:layout_height="300px"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="2) UTS Blake Library (Research helpdesk):  Monday to Thursday: 4pm - 7pm Saturday: 1pm - 4pm"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/textView2"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_marginTop="29dp" />
+
+    <Button
+        android:layout_width="400px"
+        android:layout_height="150px"
+        android:text="Online Chat"
+        android:textColor="#FFFFFF"
+        android:id="@+id/chatbtn"
+        android:background="#3498DB"
+        android:layout_marginTop="62dp"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="1600px"
+        android:layout_height="400px"
+        android:background="#C9C9C9"
+        android:id="@+id/textView4"
+        android:layout_alignTop="@+id/homebtn"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:layout_width="200px"
+        android:layout_height="220px"
+        android:id="@+id/homebtn"
+        android:src="@drawable/home2"
+        android:layout_marginLeft="230px"
+        android:layout_marginTop="1850px"
+        android:background="@null"/>
+
+    <ImageButton
+        android:layout_width="200px"
+        android:layout_height="200px"
+        android:id="@+id/conbtn"
+        android:src="@drawable/phone3"
+        android:layout_marginLeft="650px"
+        android:layout_marginTop="1880px"
+        android:background="@null"/>
+
+    <ImageButton
+        android:layout_width="250px"
+        android:layout_height="250px"
+        android:id="@+id/setbtn"
+        android:src="@drawable/set2"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="1050px"
+        android:layout_marginTop="1860px"
+        android:background="@null"/>
+</RelativeLayout>
